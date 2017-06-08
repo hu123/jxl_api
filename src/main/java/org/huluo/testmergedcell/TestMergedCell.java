@@ -1,3 +1,4 @@
+package org.huluo.testmergedcell;
 import jxl.Workbook;
 import jxl.format.UnderlineStyle;
 import jxl.read.biff.BiffException;
