@@ -36,7 +36,7 @@ public class TestMergedCell {
 
         writableSheet1.addCell(label);
 
-        writableSheet1.mergeCells(2, 8, 2, 9);
+        writableSheet1.mergeCells(2, 8, 3, 9);
 
 
 
