@@ -15,7 +15,7 @@ public class StudentScoreExcelTemplateUtil {
     public static void generateExcelTemplate(String fileName) {
         try {
             //打开文件
-            WritableWorkbook book= Workbook.createWorkbook(new File("excelResult/" + fileName));
+            WritableWorkbook book= Workbook.createWorkbook(new File(fileName));
             //生成名为“第一页”的工作表，参数0表示这是第一页
             WritableSheet sheetOne=book.createSheet("第一页",0);
 
