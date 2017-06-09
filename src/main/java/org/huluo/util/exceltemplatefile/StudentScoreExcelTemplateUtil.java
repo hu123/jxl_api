@@ -1,4 +1,4 @@
-package org.huluo.exceltemplatefileutil;
+package org.huluo.util.exceltemplatefile;
 
 import jxl.Workbook;
 import jxl.format.UnderlineStyle;
